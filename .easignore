@@ -1,0 +1,60 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# build artifacts
+android/app/build/
+ios/build/
+ios/Pods/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# testing
+__tests__/
+jest.config.*
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# cache
+.gradle/
+*.tsbuildinfo
